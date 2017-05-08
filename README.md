@@ -2,6 +2,8 @@
 
 Basic python3 framework for mapping chords and scale types to keys
 
+The device independent "theory" portion chan be viewed like this:
+
 ## Example:  just run the notes.py file
 ```
 import chromatics as c
@@ -51,4 +53,26 @@ for i in ['C', 'D', 'E', 'F', 'G', 'A', 'B']:
 2017-05-03 15:24:51,673 - DEBUG - BpentMajor : ['B', 'C#', 'D#', 'F#', 'G#', 'B']
 2017-05-03 15:24:51,673 - DEBUG - BpentMinor : ['B', 'D', 'E', 'F#', 'A', 'B']
 2017-05-03 15:24:51,673 - DEBUG - BhexBlues : ['B', 'D', 'E', 'F', 'F#', 'A', 'B']
+```
+
+## Python on the Cell Phone 
+I have been experimenting with Python3 on my IOS devices through the Pythonista app.  Pythonista has a simple sound module, and this script applies some of the theory to drive the sound module by playing tone sequences (scales, chords, arpeggio chord progressions, etc.).
+
+```
+### Run blue6.py from the Pythonista editor.
+Inspect the last few lines for other demo sequences.
+
+ pentMajor: ['C', 'D', 'E', 'G', 'A', 'C']
+ pentMajor: ['G', 'A', 'B', 'D', 'E', 'G']
+ pentMajor: ['D', 'E', 'F#', 'A', 'B', 'D']
+ pentMajor: ['A', 'B', 'C#', 'E', 'F#', 'A']
+ pentMajor: ['E', 'F#', 'G#', 'B', 'C#', 'E']
+ pentMajor: ['B', 'C#', 'D#', 'F#', 'G#', 'B']
+ pentMajor: ['F#', 'G#', 'A#', 'C#', 'D#', 'F#']
+ pentMajor: ['C#', 'D#', 'F', 'G#', 'A#', 'C#']
+ pentMajor: ['G#', 'A#', 'C', 'D#', 'F', 'G#']
+ pentMajor: ['D#', 'F', 'G', 'A#', 'C', 'D#']
+ pentMajor: ['A#', 'C', 'D', 'F', 'G', 'A#']
+ pentMajor: ['F', 'G', 'A', 'C', 'D', 'F']
+
 ```
