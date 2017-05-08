@@ -2,7 +2,7 @@
 
 Basic python3 framework for mapping chords and scale types to keys
 
-The device independent "theory" portion chan be viewed like this:
+The device independent "theory" portion can be viewed like this:
 
 ## Example:  just run the notes.py file
 ```
@@ -60,7 +60,7 @@ I have been experimenting with Python3 on my IOS devices through the Pythonista 
 
 ```
 ### Run blue6.py from the Pythonista editor.
-Inspect the last few lines for other demo sequences.
+Inspect the last few lines of Blue6.py for other demo sequences.
 
  pentMajor: ['C', 'D', 'E', 'G', 'A', 'C']
  pentMajor: ['G', 'A', 'B', 'D', 'E', 'G']
